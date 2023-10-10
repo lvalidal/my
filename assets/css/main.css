@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+header nav h3 i {
+  border: 0px solid;
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  background-color: darkslateblue;
+  color: white;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+  color: gray;
+}
+
+#edit .tel {
+  width: 380px;
+  height: 800px;
+  border: 2px solid darkgrey;
+  border-radius: 40px;
+  margin-left: 50px;
+}
+#edit .tel .try {
+  margin: auto;
+  width: 300px;
+  height: 700px;
+  border: 2px solid darkgrey;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+#edit .tel .try .round {
+  border: 0px solid;
+  border-radius: 50%;
+  background-color: rgba(211, 211, 211, 0.705);
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 40px;
+}
+#edit .tel .try .lineone {
+  border: 0px solid;
+  border-radius: 20px;
+  width: 140px;
+  height: 20px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: rgba(211, 211, 211, 0.562);
+}
+#edit .tel .try .linetwo {
+  border: 0px solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 20px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: rgba(211, 211, 211, 0.562);
+}
+#edit .tel .try .d-grid {
+  margin-top: 100px;
+}
+#edit .write .rowone p {
+  color: gray;
+}
+#edit .write .rowone .justb {
+  padding: 0 20px;
+}
+#edit .write .rowone .justb button {
+  color: gray;
+  margin: auto;
+}
+#edit .write .rowtwo .line {
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.all {
+  display: grid;
+  grid-template-columns: 300px 700px;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 50px;
+  object-fit: cover;
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */

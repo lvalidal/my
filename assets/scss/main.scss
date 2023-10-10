@@ -1,0 +1,180 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+
+    nav {
+
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+
+        h3 {
+
+            i {
+
+                border: 0px solid;
+                border-radius: 12px ;
+                width: 40px;
+                height: 40px;
+                background-color: darkslateblue;
+                color: white;
+                align-items: center;
+                
+            }
+        }
+
+        ul {
+
+            display: flex;
+            gap: 30px ;
+
+            color: gray;
+
+            
+        }
+    }
+}
+
+#edit {
+
+  
+
+    // .image {
+
+    //     width: 100%;
+    //     object-fit: cover;
+    //     overflow: hidden;
+    //     border: 0px solid;
+    //     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    //     img {
+
+    //         width: 100%;
+    //     }
+    // }
+
+       
+   
+
+    .tel {
+
+        width: 380px;
+        height: 800px;
+        border: 2px solid darkgrey;
+        border-radius: 40px;
+       margin-left: 50px;
+
+       .try {
+
+        margin: auto;
+        width: 300px;
+        height: 700px;
+        border: 2px solid darkgrey;
+        border-radius: 40px;
+        margin-top: 50px;
+
+
+        .round {
+
+            border: 0px solid;
+            border-radius: 50%;
+            background-color: rgba(211, 211, 211, 0.705);
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .lineone {
+
+            border: 0px solid;
+            border-radius: 20px;
+            width: 140px;
+            height: 20px;
+            margin: auto;
+            margin-top: 40px;
+            background-color: rgba(211, 211, 211, 0.562);
+            
+
+           
+        }
+
+        .linetwo {
+
+            border: 0px solid;
+            border-radius: 20px;
+            width: 100px;
+            height: 20px;
+            margin: auto;
+            margin-top: 40px;
+            background-color: rgba(211, 211, 211, 0.562);
+            
+
+           
+        }
+
+        .d-grid {
+
+            margin-top: 100px;
+
+        }
+       }
+    }
+
+    .write {
+
+      
+
+        .rowone {
+
+            p {
+
+                color: gray;
+
+            }
+
+            .justb{
+
+
+                padding: 0 20px;
+              
+
+            button  {
+
+                color: gray;
+                margin: auto;
+                
+            }
+
+        }
+        }
+
+        .rowtwo {
+
+            .line {
+
+                display: flex;
+                color: gray;
+                justify-content: space-between;
+                margin-top: 50px;
+            }
+        }
+    }
+
+}
+
+.all {  display: grid;
+    
+    grid-template-columns: 300px 700px ;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 50px;
+    object-fit: cover;
+    overflow: hidden;}
